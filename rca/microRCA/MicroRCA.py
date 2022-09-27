@@ -5,11 +5,14 @@ import networkx as nx
 from sklearn.cluster import Birch
 from sklearn import preprocessing
 
-from rca.metrics import ServiceMetrics, HostMetrics
-from rca.svcGraph import ServiceGraph
+from rca.microRCA.metrics import ServiceMetrics, HostMetrics
+from rca.microRCA.svcGraph import ServiceGraph
 
 
 class MicroRCA:
+    """
+    READ:https://github.com/elastisys/MicroRCA
+    """
 
     def __init__(self, alpha=0.55, ad_threshold=0.045, smoothing_window=12, front_end_svc_names=['front-end']):
         self.alpha = alpha

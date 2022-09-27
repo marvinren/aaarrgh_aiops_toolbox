@@ -4,7 +4,7 @@ import numpy as np
 from scipy.optimize import minimize
 from numba import jit
 
-from ad.datagen import AnomalyUnivariateGen
+from anomaly_detection.datagen import AnomalyUnivariateGen
 
 
 class SPOTAD:

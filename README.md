@@ -8,8 +8,15 @@
 |Anomaly Detection in Streams with Extreme Value Theory|利用极值理论，从POT算法升级到SPOT和DSPOT算法，针对对概念迁移的处理，另外通过grimshaw方法对极值分布的二参数优化，并提出了一些策略提升优化效率|2017|KDD|EVT，grimshaw
 
 
+## 多维根因定位论文
+
 ## 根因定位论文
+https://dreamhomes.top/posts/202107201005/#fn6
+https://dreamhomes.top/posts/202204281516/
+https://blog.csdn.net/yunqiinsight/article/details/113628239
+
+
 |名字|主要内容|时间|级别|特征|备注|
 |-------|---------|---------|-------|---------|---------|
 |MicroRCA: Root Cause Localization of Performance Issues in Microservices|利用调用链和因果关系发现，共同发现可能的微服务中的问题根因。可在线实时进行定位，并通过传播分析可关联服务和资源。|2020|-|birch，personality PageRank，故障传播图生成||
-ß
+

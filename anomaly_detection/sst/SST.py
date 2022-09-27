@@ -4,7 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 from numpy.linalg import norm
 
-from ad.queue import Queue
+from anomaly_detection.queue import Queue
 
 
 class SingularSpectrumTransformAD:

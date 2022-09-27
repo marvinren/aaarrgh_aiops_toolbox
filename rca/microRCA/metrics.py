@@ -3,13 +3,12 @@ import os.path
 import pandas as pd
 
 
-
 class ServiceMetrics:
 
     def __init__(self):
         self._data = None
 
-    def load_from_file(self, local_file: str) :
+    def load_from_file(self, local_file: str):
         if not os.path.exists(local_file):
             raise Exception("can't find the data file {}".format(self.local_file))
         df = pd.read_csv(local_file)
